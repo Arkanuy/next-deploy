@@ -1,0 +1,33 @@
+{
+  "name": "fath-school",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start -p 3005",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@eslint/config-array": "^0.19.1",
+    "@eslint/object-schema": "^2.1.5",
+    "bootstrap": "^5.3.3",
+    "framer-motion": "^11.14.1",
+    "glob": "^11.0.0",
+    "lru-cache": "^11.0.2",
+    "next": "15.0.4",
+    "react": "^18.3.1",
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.0.2",
+    "react-scroll": "^1.9.0",
+    "rimraf": "^6.0.1"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^8.18.1",
+    "@typescript-eslint/parser": "^8.18.1",
+    "eslint": "^9.17.0",
+    "eslint-config-next": "15.0.4",
+    "eslint-plugin-unicorn": "^56.0.1",
+    "file-loader": "^6.2.0"
+  }
+}
